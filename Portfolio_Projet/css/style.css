@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    box-sizing: border-box;
+}
+
+
+#home {
+    background: linear-gradient(rgba(14, 13, 13, 0.5), rgba(24, 23, 23, 0.5)), url("../image/bg.jpg");
+    text-align: center;
+    height: 100vh;
+    background-size: cover
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 150px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+#menu {
+    font-size: 20px;
+    padding-right: 15px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+#menu p {
+    display: none;
+}
+
+#menulogo{
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 30px;
+    padding: 8px;
+}
+
+.me, .me2{
+    text-align: center;
+}
+
+img{ 
+    width: 100%;
+    border-radius: 10px;
+    height: 95vh;
+    width: 95vw;
+}
+
+.header {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-size: 80px;
+    
+}
+
+#logo {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.logo{ 
+    margin: 10px;
+}
+
+#about{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#certif {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.divcertif{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#pMe {
+    margin: 10px;
+    
+}
+
+.pMe {
+    margin: 10px;
+}
+
+#butDowload{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: black 1px solid;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#butContact{
+    background-color: white;
+    border: black 1px solid;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: rgb(190, 32, 190);
+}
+
+.divcertif h3{
+    margin-bottom: 60px;
+}
+
+.divcertif img{
+    margin-bottom: 60px;
+}
+
+.me img, .me2 img {
+    margin-bottom: 20px;
+}
+
+
+.owl-carousel {
+    background-color: rgb(233, 231, 231);
+    margin-top: 10px;
+}
+
+.titreCertif{
+    margin-top: 50px;
+}
+
+.divLogo{
+    position: relative;
+}
+
+.logoPosition {
+    position: absolute;
+    font-size: 15px;
+    opacity: 0;
+}
+
+.logoPosition i{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    width: 17px;
+    height: 17px;
+
+}
+.logoPosition h3{
+    margin-bottom: 15px;
+}
+
+.divLogo:hover .logoPosition{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.76);
+    height: 90%;
+    width: 90%;
+    bottom: 7%;
+    left: 5%;
+}
+
+.logoPosition h3{
+    margin-top: 150px;
+}
+
+#sectionContact{
+    background-color: rgb(233, 231, 231);
+}
+
+#contactForm{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#contactForm input{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+
+}
+
+textarea{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#contactForm button{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: black 1px solid;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+#contactH2{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+#h2portfolio {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+footer p {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+.owl-theme .owl-nav {
+    font-size: 30px;
+}
+
+
+
+#menu.apparition_menu p {
+    display: inherit;
+    animation: frame_menu 5s alternate linear;
+}
+
+.portfolio_menu{
+    text-decoration: none;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+#menuport {
+    display: flex;
+    justify-content: center;
+}
+
+#menuport p {
+    margin: 5px 5px 40px 5px;
+}
+
+
+@keyframes frame_menu{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#progress_80 {
+    border: black 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.616) ;
+}
+
+#progress_60 {
+    border: black 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.616) ;
+
+}
+
+#textWeb {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 5px;
+    width: 80%;
+
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    animation: progress_bar 2s linear;
+}
+
+@keyframes progress_bar{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+#textdev {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 5px;
+    width: 60%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    animation: progress_bar2 2s linear;
+
+}
+ 
+@keyframes progress_bar2{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 60%;
+    }
+}
+
+@media (min-width: 750px){
+    #sectionAbout{
+        display: flex;
+    }
+
+    .me img,  .me2 img {
+        height: 400px;
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .me, .me2{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+    .divLogo:hover .logoPosition{
+        opacity: 1;
+        background-color: rgba(255, 255, 255, 0.76);
+        height: 90%;
+        width: 90%;
+        bottom: 8%;
+        left: 5%;
+    }
+
+    #menu i{
+        display: none;
+    }
+
+    #menu p {
+        display: inherit;
+        padding: 0%;
+        margin: 1%;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        right: 10px;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+
+    #logo{
+        margin-top: 5%;
+    }
+}
